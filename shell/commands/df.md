@@ -35,11 +35,3 @@ The SIZE argument is an integer and optional unit (example: 10K is 10*1024).  Un
 
     Filesystem     1G-blocks  Used Available Use% Mounted on
     /dev/disk1          233G  190G       43G  82% /
-
-* Mac -
-
-> df -lh
-
-    Filesystem     Size   Used  Avail Capacity iused               ifree %iused  Mounted on
-    /dev/disk1s1  234Gi  131Gi  100Gi    57% 2022860 9223372036852752947    0%   /
-    /dev/disk1s4  234Gi  2.0Gi  100Gi     2%       2 9223372036854775805    0%   /private/var/vm

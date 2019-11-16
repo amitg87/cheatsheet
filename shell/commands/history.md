@@ -47,9 +47,20 @@
 
 > !!
 
+* Repeat command from history - command number 13889
+
+> !13889
+
 * Recent command starting with `term`
 
 > !term
+
+* Use last word from previous command
+
+> ls file.txt
+> cat !$
+
+    will cat file.txt
 
 * Clear history
 

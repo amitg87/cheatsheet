@@ -65,3 +65,7 @@
 * Creating link in current directory
 
 > ln -s /usr/bin/man
+
+* Update soft link
+
+> ln -nfs new_target link

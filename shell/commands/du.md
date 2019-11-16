@@ -53,9 +53,13 @@ The SIZE argument is an integer and optional unit (example: 10K is 10*1024).  Un
 
 > du -a
 
-* Print Human readable storage usage by directory
+* Print Human readable storage usage of all directory
 
-> du -sh `folder`
+> du -sh */
+
+* Print Human readable storage usage of directory
+
+> du -sh directory
 
 * Show subfolder usage - descending by size
 

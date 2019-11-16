@@ -1,6 +1,6 @@
 # grep, egrep, fgrep, zgrep, zegrep, zfgrep
 
-    global regular expression print - file pattern searcher
+    Global Regular Expression Print - file pattern searcher
     grep searches the named input FILEs for lines containing a match to the given PATTERN.
     By default, grep prints the matching lines. IF multiple files are specified - each match is prefixed by file name.
     If no files are specified, or if the file “-” is given, grep searches standard input.
