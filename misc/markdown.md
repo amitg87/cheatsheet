@@ -147,10 +147,7 @@ Youtube
 
     Markup : [![image](thumbnail-link)](video-link)
 
-<iframe width="560" height="315"
-src="https://www.youtube.com/watch?v=arj7oStGLkU" frameborder="0"></iframe>
-
-    Markup : <iframe width="560" height="315" src="src" frameborder="0">]</iframe>
+Use this link for quick markdown: [Embed Youtube](http://embedyoutube.org/)
 
 ## Image
 
