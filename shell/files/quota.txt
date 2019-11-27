@@ -1,0 +1,7 @@
+fred 2000
+bob 1000
+an 1000
+eric 2000
+chad 1000
+don 1500
+eric 5000
