@@ -44,8 +44,8 @@ File type
 
 `-` Regular file
 `d` Directory
-`b` Block device - Block special files also provide a mechanism for communicating with device drivers via the file system. These files are called block devices because they transfer large blocks of data at a time.
-`c` Character device - Character special files provide a mechanism for communicating with a device one character at a time. Usually character devices represent a "raw" device.
+`b` Block device - Block special files also provide a mechanism for communicating with device drivers via the file system. These files are called block devices because they transfer large blocks of data at a time. e.g. /dev/sda
+`c` Character device - Character special files provide a mechanism for communicating with a device one character at a time. Usually character devices represent a "raw" device. e.g. /dev/tty
 `l` Symbolic Link - special file that points to another file
 `p` Pipe - named pipe
 `s` Socket - Socket files are another form of interprocess communication, but sockets can pass data and information between two processes that are not running on the same machine. Socket files are created when communication to a process on another machine located on a network is required.

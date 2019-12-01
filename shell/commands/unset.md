@@ -12,9 +12,16 @@
 * Define a variable
 
 > a=1
+
+* Using variable value
+
 > echo $a
     1
+
+* Unset a variable
+
 > unset a
+
 > echo $a
 
 ## Note

@@ -48,7 +48,7 @@
 
 > cp file file.bkp
 
-* Copy directory a and all subdirectories to b
+* Copy directory a and all contents to b
 
 > cp -r a/ b/
 

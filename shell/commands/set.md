@@ -11,7 +11,7 @@
 
 -n
 
-    Read commands but do not execute them.
+    Read commands but do not execute them. Useful for syntax checking.
 -v
 
     Displays all lines as they are read.

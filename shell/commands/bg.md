@@ -25,6 +25,6 @@
 
 > jobs -r
 
-* Run command in background mode 
+* Run command in background mode
 
 > find / -ctime -1 > /dev/null &

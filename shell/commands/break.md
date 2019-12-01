@@ -1,6 +1,7 @@
 # break
 
-    Exit from within a FOR, WHILE or UNTIL loop.  If N is specified, break N levels.
+    Exit from within a FOR, WHILE or UNTIL loop.
+    Breaking out of netsted loop - if N is specified, break N levels.
 
 ## Synopsis
 
