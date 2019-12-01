@@ -53,6 +53,10 @@
     25) SIGXFSZ	26) SIGVTALRM	27) SIGPROF	28) SIGWINCH
     29) SIGINFO	30) SIGUSR1	31) SIGUSR2
 
+* Kill a background job
+
+> kill %1
+
 ## Notes
 
 * Keyboard shortcuts for signals
@@ -60,3 +64,7 @@
     SIGINT CTRL+C
     SIGTSTP CTRL+Z
     SIGQUIT CTRL+\ (backslash)
+
+* To find keyboard shortcuts
+
+> stty -a

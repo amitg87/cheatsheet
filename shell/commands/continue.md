@@ -1,7 +1,7 @@
 # continue
 
     Resume the next iteration of the enclosing FOR, WHILE or UNTIL loop.
-    If N is specified, resume at the N-th enclosing loop.
+    Breaking out of netsted loop - if N is specified, resume at the N-th enclosing loop.
 
 ## Synopsis
 

@@ -16,14 +16,6 @@
 * Infinite loop
 
 ```shell
-while :
-do
-    echo "Press [CTRL+C] to stop.."
-    sleep 1
-done
-```
-
-```shell
 while true
 do
     echo "Press [CTRL+C] to stop.."
@@ -99,4 +91,20 @@ while read guess; do
     fi
     echo 'Wrong!!!';
 done
+```
+
+* Input a directory
+
+```shell
+RESPONSE=
+while [ -z "$RESPONSE" ] ;
+do
+     echo "Enter the name of a directory where your files are located: "
+     read RESPONSE
+     if [ ! -d "$RESPONSE" ] ; then
+         echo "ERROR: Please enter a directory pathname."
+         RESPONSE=
+     fi
+done
+echo $RESPONSE
 ```

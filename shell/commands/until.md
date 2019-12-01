@@ -13,6 +13,8 @@ done
 
 ## Example
 
+* Keep asking till you get a yes - 'y', 'Y', '1'
+
 ```shell
 function choice()
 {
@@ -34,5 +36,26 @@ do
     if [ "$choosen" == "y" ]; then
         printf "Now you are doing good"
     fi
+done
+```
+
+* Until loop is identical to a while loop with condition negated using the ! operator
+
+```shell
+i=1
+until [ ! $i -le 5 ]
+do
+    echo $i
+    i=$((i+1));
+done
+```
+
+* Infinite loop
+
+```shell
+until false
+do
+    echo "Press [CTRL+C] to stop.."
+    sleep 1
 done
 ```

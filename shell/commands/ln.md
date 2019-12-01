@@ -55,7 +55,7 @@
     395339 lrwxrwxrwx 1 amit amit       10 Dec 19 18:06 eatable.txt -> fruits.txt
     399494 -rw-rw-r-- 1 amit amit       37 Nov 26 20:03 fruits.txt
 
-* Deleting target of soft link - broken link
+* Deleting target of soft link makes causes the symbolic lik to become broken link
 
 > rm fruits.txt  
 > cat eatable.txt
@@ -66,6 +66,10 @@
 
 > ln -s /usr/bin/man
 
-* Update soft link
+* Deleting symbolic link to a directory - same as normal symbolic link
+
+> rm man
+
+* Update soft link - update target of link
 
 > ln -nfs new_target link
