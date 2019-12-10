@@ -7,7 +7,10 @@
 
 ## Synopsis
 
-`test [ expr ]`
+`test expr`
+`[expr]`
+
+    Note the space between [ and condition
 
 ## Expression
 

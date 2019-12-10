@@ -1,7 +1,7 @@
 # unset
 
     Unset values and attributes of shell variables and functions.
-    Some variables cannot be unset; also see readonly.
+    Some variables cannot be unset - readonly
 
 ## Synopsis
 
@@ -21,7 +21,6 @@
 * Unset a variable
 
 > unset a
-
 > echo $a
 
 ## Note

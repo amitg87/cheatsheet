@@ -100,19 +100,19 @@ ls [OPTION]... [File]...
 
 > ls -1 | wc -l
 
-* File largest files
-
-* Files newest files
-
 * Find recently modified files
 
 * To retrieve a list of the five most recently accessed files
 
 > ls -lut | head -5
 
-* Biggest/largest file
+* Find largest files
 
 > ls -Sl | head -5
+
+* Files newest files
+
+> ls -lt | head -5
 
 * Sort by creation time - oldest 5 files
 
