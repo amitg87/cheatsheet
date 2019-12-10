@@ -70,3 +70,5 @@ Print all defined aliases in a reusable format
 
     alias df='df -H'
     alias du='du -ch'
+
+    alias hs="history | grep "

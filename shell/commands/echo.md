@@ -12,7 +12,8 @@
 
 -n
 
-    do not append a newline
+    do not append a newline. useful when generating a prompt
+    Default append new-line
 -e
 
     enable interpretation of the following backslash escapes
@@ -32,7 +33,27 @@
 
 ## Example
 
-* Print environment variables
+* Embed spaces, puntuation marks
+
+> echo Do you want to install?
+
+* Empty spaces are gobbled up by shell - echo never sees them - to avoid gobbling, quote the string
+
+> echo         when   do         we    eat?
+
+    when do we eat?
+
+* Escape meta-characters (* ? [ ] ' " \ $ ; & ( ) | ^ < > new-line space tab) with backslash
+
+> echo "Hello " world"
+> echo -e "Hello \" world"
+> echo -e "You owe \$123"
+
+* Do not append newline at end
+
+> echo -n "Enter your name: "
+
+* Variable substitutions - Print environment variables
 
 > echo $JAVA_HOME $JDK_HOME
 
@@ -53,3 +74,13 @@
 > echo "Hello $NAME"
 
     Hello Amit
+
+* Print formatted text
+
+> echo "Name\t\tUser Name\nSriranga\tranga\nSrivathsa\tvathsa"
+
+    Name                   User Name
+    Sriranga               ranga
+    Srivathsa              vathsa
+
+* Print diagnostic message to show progress of long running operation `echo.sh`
